@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import {
   slideInFromLeft,
   slideInFromRight,
@@ -49,12 +50,14 @@ const HeroContent = () => {
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
+        <Link href="https://drive.google.com/file/d/16ulucR3u5v7yt4jT4JjLM3c3UHT_tRIG/view?usp=sharing">
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="p-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          My Resume!
         </motion.a>
+        </Link>
       </div>
 
       <motion.div

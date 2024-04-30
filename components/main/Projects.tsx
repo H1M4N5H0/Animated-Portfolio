@@ -22,11 +22,20 @@ const Projects = () => {
           description="A Fully Responsive Website with Modern UI/UX in React JS with Tailwind."
         />
         <ProjectCard
-          src="/portfolio.png"
+         src="/portfolio.png"
           title="Animated Space Theme Portfolio"
           description="An engaging animated portfolio website using Next.js and Framer Motion, combining the power of React-based server-side rendering with seamless motion animations for a dynamic user experience"
         />
+
+         <ProjectCard
+          src="/crowdfunding.png"
+          title="Web3 Crowdfuning App"
+          description="With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code, and, most importantly, the ability to create create, view, and donate to crowdfunding campaigns directly through the blockchain; this course is perfect to fully understand how web3, blockchain, Solidity, and smart contracts truly work behind the scenes."
+        />
+        
       </div>
+
+      
     </div>
   );
 };

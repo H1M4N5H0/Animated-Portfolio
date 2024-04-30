@@ -84,14 +84,18 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/instagram.svg",
+      link: "https://www.instagram.com/_himanshu_782084/"
     },
     {
       name: "Github",
       src: "/icons8-github.svg",
+      link: "https://github.com/H1M4N5H0"
+      
     },
     {
       name: "Linkedin",
       src: "/linkedin-1-svgrepo-com.svg",
+      link: "https://www.linkedin.com/in/himanshu-narendra-shukla-341537268/"
     },
   ];
   
